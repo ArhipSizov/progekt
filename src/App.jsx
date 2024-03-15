@@ -1,6 +1,9 @@
 import "./App.css";
 
 function App() {
+
+
+
   return (
     <div className="All">
       <div className="nav">
@@ -24,7 +27,7 @@ function App() {
           </div>
         </div>
       </div>
-      <p className="p">личный кабинет</p>
+      <p className="p_big">личный кабинет</p>
       <div className="All_but">
         <div className="div_but_1 div_but">
           <img className="img_but" src="/cabinet/man.svg" alt="" />
@@ -62,7 +65,11 @@ function App() {
             defaultValue="+38 000 000 00 00"
             type="text"
           />
-          <input placeholder="e-mail" defaultValue="agh@gmail.com" type="text" />
+          <input
+            placeholder="e-mail"
+            defaultValue="agh@gmail.com"
+            type="text"
+          />
           <input placeholder="Страна" defaultValue="Украина" type="text" />
           <input placeholder="Город" defaultValue="Днепр" type="text" />
           <input placeholder="Улица" defaultValue="ул. Шевченка" type="text" />
