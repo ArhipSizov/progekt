@@ -1,4 +1,5 @@
 import "./App.css";
+import App2 from './addImage/App.jsx'
 
 function App() {
 
@@ -48,15 +49,15 @@ function App() {
       </div>
       <div className="All_akk">
         <div className="all_main">
-          <img className="all_main_img" src="/cabinet/man_photo.png" alt="" />
           <div>
-            <p>Добрый день</p>
-            <p>Иван Иванов</p>
             <div>
+            <App2 />
               <img src="/cabinet/downloud.svg" alt="" />
               <p className="all_main_p">Загрузить фото</p>
               <p>(jpeg, png)</p>
             </div>
+            <p>Добрый день</p>
+            <p>Иван Иванов</p>
           </div>
         </div>
         <div>
